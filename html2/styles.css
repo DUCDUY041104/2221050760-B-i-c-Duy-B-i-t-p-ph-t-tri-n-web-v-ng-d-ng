@@ -1,0 +1,19 @@
+body{
+    background-color:white;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+#box2{
+    background-color: cadetblue;
+    margin-left: 200px;
+    margin-right: 300px;
+
+}
+img{
+    width: 150px;
+    height: 230px;
+}
+#box3{
+    position: absolute;
+    margin-left: 630px;
+}

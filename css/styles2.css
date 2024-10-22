@@ -1,0 +1,145 @@
+
+#box2{
+    position: relative;
+    margin-left: 245px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'roboto','sans-serif';
+}
+
+input[type='text'],input[type='password']{
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(204,208,213);
+}
+input:focus{
+    outline: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-color: rgb(240, 242, 245);
+}
+.container{ 
+    margin-top: 20px;
+    width: 900px;
+    height: 1000px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgb(219, 221, 223) 0 10px 20px rgb(219, 221, 223);
+    background-color: white;
+    border-radius: 5px;
+}
+.headline{
+    position: relative;
+    margin-top: 30px;
+    border-bottom: 2px solid rgb(240,242,245);
+}
+.form-register * {
+    font-size: 0.98cm;
+}
+.form-register{
+    padding: 15px;
+    text-align: left;
+}
+.fullname {
+    display: flex;
+    justify-content: space-between;
+}
+.fullname div{
+    width: 48%;
+}
+.fullname input{
+    width: 100%;
+}
+.email{
+    margin-top: 10px;
+}
+.password{
+    margin-top: 10px;
+}
+.birthday{
+    padding-top: 10px;
+}
+.c-birthday{
+    display: flex;
+    justify-content: space-between;
+}
+.c-birthday div {
+width:100%;
+}
+
+.month{
+    margin: 0 10px 0 10px;
+}
+
+.c-birthday select {
+    width: 100%;
+    border: 1px solid rgb(204 ,208,213);
+    border-radius: 5px;
+    padding:10px ;
+}
+.sex{
+    padding-top: 10px;
+}
+.f-sex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.f-sex div{
+    width: 100%;
+    border: 1px solid rgb(204 ,208,213);
+    padding:10px ;
+    display: flex;
+    justify-content: space-between;
+
+}
+.custom-sex{
+    margin-top: 15px;
+}
+.custom-sex select{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(204 ,208,213);
+    padding:10px ;
+}
+.custom-sex p{
+    margin-top: 4px;
+}
+.custom-sex-name{
+    margin-top: 10px;
+}
+.rule{
+    margin-top: 4px;
+}
+.btn-register{
+    text-align: center;
+    padding-top: 20px;
+}
+.btn-register button{
+    width: 50%;
+    font-size: 1.3cm;
+    font-weight: bold;
+    padding: 7px;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    background-color: chartreuse;
+}
+.font-sub{
+    padding-bottom: 4px;
+    font-size: 0.8cm;
+    color: gray;
+}
+.sub-headline{
+    padding: 20px;
+}
+.sub-headline a{
+    text-decoration: none;
+}

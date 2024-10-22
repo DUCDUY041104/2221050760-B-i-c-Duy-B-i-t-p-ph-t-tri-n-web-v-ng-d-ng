@@ -1,0 +1,100 @@
+
+.product-header img {
+    position: relative;
+    margin-top: 20px;
+    width: 700px;
+    height:auto;
+}
+.rating {
+    position: relative;
+    margin-top:5px;
+    margin-left: 15px; 
+}
+.đg{
+    position: absolute;
+    margin-top:150px ;
+    margin-left:710px;
+
+}
+.giá{
+    position: absolute;
+    margin-top: 200px;
+    margin-left:710px;
+}
+.ip1{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    margin-left: 10px;}
+.p2{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 280px;
+    margin-left: 710px;
+}
+.vc{
+    position: absolute;
+    font-size: 30px;
+    margin-top:280px;
+    margin-left:900px;
+
+}
+.p3{
+    position: absolute;
+    font-size: 30px;
+    margin-top:450px;
+    margin-left: 710px;
+    
+
+}
+.ảnh{
+    position: absolute;
+    margin-top:520px;
+    margin-left: 710px;
+}
+.p4{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 600px;
+    margin-left: 710px;
+
+}
+.sl{
+    position: absolute;
+    margin-top:660px;
+    margin-left:710px;
+}
+.congtru{
+    position: absolute;
+    margin-top:690px;
+    margin-left:860px;
+}
+.hb2 {
+    padding: 5px 15px;
+    border: 1px solid rg
+}
+.ha5 {
+    position: absolute;
+    margin-top:750px;
+    margin-left:850px;
+    align-items: center;
+    border: 1px solid rgb(233, 54, 54);
+    box-sizing: border-box;
+    display: inline-flex;
+    padding: 8px 20px;
+    color: rgb(233, 47, 47);
+    background-color: rgb(244, 193, 175);
+    margin-right: 20px;
+}
+.ha6{
+    position: absolute;
+    margin-top:750px;
+    margin-left:720px;
+    align-items: center;
+    border: 1px solid rgb(233, 54, 54);
+    box-sizing: border-box;
+    display: inline-flex;
+    padding: 8px 20px;
+    color: rgb(240, 228, 228);
+    background-color: rgb(222, 97, 52);
+}
