@@ -5,12 +5,15 @@ if(isset($_POST['btn-reg'])){
     $contact = $_POST['contact'];
     $password = $_POST['password'];
     $gender = $_POST['gender'];
-    if(!empty($fullname)&&!empty($contact)&&!empty($password)&&!empty($gender)){
+    $birthdate = $_POST['ngay_sinh'];
+    if(!empty($fullname)&&!empty($contact)&&!empty($password)&&!empty($gender)&&!empty($birthdate)){
 
         $sql = "INSERT INTO `tbl-user` (`fullname`,`contact`,`password`,`gender`) VALUES ('$fullname','$contact',md5('$password'),'$gender') "; 
 
         if($conn->query($sql)==TRUE){
             echo "Đăng Ký thành công <br>";
+            echo"<pre>";
+            print_r($_POST);
         }else{
             echo "lỗi {$sql}".$conn->error;
         }
@@ -31,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Lấy ngày sinh từ form
     $ngaySinh = $_POST['ngay_sinh'];
 
-    // Kiểm tra và xác thực dữ liệu (nên bổ sung thêm các kiểm tra khác)
+    // Kiểm tra và xác thực dữ liệu 
     if (!preg_match("/^\d{2}\/\d{2}\/\d{4}$/", $ngaySinh)) {
         echo "Định dạng ngày sinh không hợp lệ. Vui lòng nhập theo dạng dd/mm/yyyy";
         exit();
